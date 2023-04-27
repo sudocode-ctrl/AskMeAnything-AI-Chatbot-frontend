@@ -1,0 +1,153 @@
+.home {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  padding-top: 10px;
+
+  color: white;
+  background-color: #202123;
+  position: absolute;
+  top: 60px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  overflow: scroll;
+}
+
+.sideoptions {
+  width: 245px;
+  padding: 15px;
+  padding-right: 30px;
+  background-color: #202123;
+}
+
+.showthread {
+  background-color: #202032;
+  text-align: justify;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.threadname {
+  margin: 5px;
+}
+.searchBox {
+  flex: 1;
+  position: relative;
+}
+.side-options-button {
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.side-options-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition: ease 0.25s all;
+}
+
+.search-input-box {
+  padding: 24px;
+  background-color: #2b2e3e;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.search-input-textarea {
+  background-color: #1a1a2e;
+  width: 80%;
+  border: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  padding: 12px;
+  color: white;
+  font-size: 1.2rem;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+}
+.thread-input-textarea {
+  background-color: #1a1a2e;
+  width: 80%;
+  border: 5px;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 5px;
+  border: none;
+  padding: 12px;
+  color: white;
+  font-size: 1.2rem;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+}
+.threadname-btn {
+  padding: 8px 20px;
+  color: white;
+  background-color: #2e2525;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.search-log {
+  background-color: #2b2e3e;
+  min-height: 85%;
+}
+
+.models {
+  background-color: #2e2525;
+  color: white;
+  padding: 12px 0px 12px 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-align: left;
+  margin: 10px 5px 20px 0px;
+}
+.models-text {
+  margin-top: 20px;
+  font-size: large;
+}
+.search-message-center {
+  display: flex;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+
+  padding-left: 38px;
+  padding-right: 38px;
+}
+.search-message {
+  border-radius: 10px;
+  background-color: #2b2e3e;
+}
+.search-message-response {
+  background-color: #212532;
+  border-radius: 10px;
+}
+
+.icon {
+  border-radius: 45%;
+  width: 38px;
+  height: 38px;
+}
+.icon-response {
+  background: white;
+  border-radius: 40%;
+  width: 38px;
+  height: 38px;
+}
+
+.message {
+  padding-left: 38px;
+  padding-right: 38px;
+}
+
+.view-icon {
+  height: 24px;
+  display: inline;
+  width: 24px;
+  border-radius: 4px;
+  margin: 5px;
+}

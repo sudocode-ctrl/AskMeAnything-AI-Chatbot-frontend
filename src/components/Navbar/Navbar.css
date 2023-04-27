@@ -1,0 +1,100 @@
+.container {
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid #d3c5c5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #444;
+  z-index: 99999;
+}
+
+.wrapper {
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* left */
+.left {
+  display: flex;
+  margin-left: 0;
+}
+.title {
+  text-decoration: none;
+  color: crimson;
+  font-weight: bold;
+  font-size: 24px;
+}
+/* center */
+.center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.title-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
+.list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+}
+
+.listItem {
+  color: white;
+  font-weight: 500;
+  text-decoration: uppercase;
+  cursor: pointer;
+}
+
+.listItem:hover {
+  color: #888;
+}
+
+.listItem > a {
+  text-decoration: none;
+  color: inherit;
+}
+/* right */
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.ama-con {
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+}
+.usericon {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+.logout {
+  outline: none;
+  border: none;
+  color: #fff;
+  background-color: transparent;
+  font-size: 18px;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.btn {
+  margin: 5px;
+}
